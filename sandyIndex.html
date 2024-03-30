@@ -10,7 +10,7 @@
 <body>
     <nav>
         <ul>
-            <li><a href="#mission">Mission:</a></li>
+            <li><a href="#mission">Mission</a></li>
             <li><a href="#about">About</a></li>
             <li><a href="#message">Message</a></li>
             <li><a href="#contact">Contact Information</a></li>
@@ -28,22 +28,128 @@
             <p>Two right whales have already been killed by vessel strikes this year, bringing this vulnerable species closer to the brink of extinction.
 
                 We cannot allow these agonizing deaths to continue. It’s time for the Biden administration to finalize the long-delayed vessel speed rule to protect critically endangered North Atlantic right whales from vessel strikes.</p>
-
-            
         </section>
 
         <section id="message">
             <h2>Message</h2>
-            <p>Finalize the expanded vessel speed rule to save endangered North Atlantic right whales</p>
+            <form action="submit.php" method="post">
+                <textarea name="message1" >Finalize the expanded vessel speed rule to save endangered North Atlantic right whales</textarea>
+                <br>
+                <textarea name="message2" >Dear Secretary Raimondo,
+
+                    I write to urge you and the Biden administration to act quickly to finalize the August 2022 proposal to expand a 2008 vessel speed rule to save the critically endangered North Atlantic right whale from deadly vessel collisions. Vessel strikes are a major factor in this species’ approaching extinction.
+                    
+                    In early January 2024, recreational fishermen documented the first right whale calf of the season with horrific injuries to its head and mouth clearly caused by propeller wounds. Tragically, that calf has since died of its injuries, having spent most of its short life in unimaginable pain. And in February 2024, a one-year-old female right whale was also killed by a vessel strike, not only cutting short her life but also preventing her from reaching adulthood and contributing her own calves to the population.
+                    
+                    Vessel strikes are both foreseeable and preventable. Right whale calves currently have a 1 in 14 chance of being struck and killed by a vessel before their first birthday. With only 70 breeding females remaining, every single mother-calf pair is vital to the right whale’s survival. Yet despite recognizing the urgent need to expand the 2008 vessel speed rule to prevent these deaths, the administration has inexplicably dragged its feet on finalizing the August 2022 proposed rule.
+                    
+                    Slowing vessels 35 feet and longer to 10 knots during critical periods when right whales are present is a commonsense solution to the existential threat vessel collisions pose to this species’ very survival. At higher speeds, vessels cannot maneuver to avoid these whales, even if they detect them in the first place, which is rare. Vessel collisions with large whales are also extremely risky for mariners. Most U.S. recreational boaters and fishermen will not be affected by vessel speed restrictions during the peak boating season between Memorial Day and Labor Day.
+                    
+                    North Atlantic right whales and other large whales provide extraordinarily valuable benefits to U.S. coastal economies that receive significant income from whale-watching tourism. Whales also contribute to healthy fisheries and promote climate resilience by playing a significant role in the ocean food web, including by fertilizing phytoplankton, catalyzing the production of 50% of oxygen in our atmosphere and capturing 40% of all carbon dioxide produced. We cannot protect our ocean-based economic sectors and combat climate change unless we protect whales from further declines caused by vessel strikes.
+                    
+                    You have the responsibility under the Endangered Species Act and Marine Mammal Protection Act to do everything in your power to protect this species from becoming extinct. I urge you and the Biden administration to follow through on your commitments to addressing the twin extinction and climate crises by protecting right whales and finalizing the August 2022 proposed rule immediately.
+                    
+                    Sincerely,
+            </textarea>
+                <br>
+                <input type="submit" value="Submit">
+            </form>
+        </section>
         </section>
 
         <section id="contact">
             <h2>Contact Information</h2>
-            <p>...</p>
+            <form id="contactForm" action="submit_contact.php" method="post">
+                <label for="firstName">First Name:</label>
+                <input type="text" id="firstName" name="firstName" required><br>
+        
+                <label for="lastName">Last Name:</label>
+                <input type="text" id="lastName" name="lastName" required><br>
+        
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" name="email" required><br>
+        
+                <label for="address">Address:</label>
+                <input type="text" id="address" name="address" required><br>
+        
+                <label for="county">Country:</label>
+                <input type="text" id="country" name="country" value="USA" readonly><br>
+        
+                <label for="postcode">Postcode:</label>
+                <input type="text" id="postcode" name="postcode" required><br>
+        
+                <label for="city">City:</label>
+                <input type="text" id="city" name="city" required><br>
+        
+                <label for="state">State:</label>
+                <select id="state" name="state" required>
+                    <option value="">Select State</option>
+                    <option value="AL">Alabama</option>
+                    <option value="AK">Alaska</option>
+                    <option value="AZ">Arizona</option>
+                    <option value="AR">Arkansas</option>
+                    <option value="CA">California</option>
+                    <option value="CO">Colorado</option>
+                    <option value="CT">Connecticut</option>
+                    <option value="DE">Delaware</option>
+                    <option value="FL">Florida</option>
+                    <option value="GA">Georgia</option>
+                    <option value="HI">Hawaii</option>
+                    <option value="ID">Idaho</option>
+                    <option value="IL">Illinois</option>
+                    <option value="IN">Indiana</option>
+                    <option value="IA">Iowa</option>
+                    <option value="KS">Kansas</option>
+                    <option value="KY">Kentucky</option>
+                    <option value="LA">Louisiana</option>
+                    <option value="ME">Maine</option>
+                    <option value="MD">Maryland</option>
+                    <option value="MA">Massachusetts</option>
+                    <option value="MI">Michigan</option>
+                    <option value="MN">Minnesota</option>
+                    <option value="MS">Mississippi</option>
+                    <option value="MO">Missouri</option>
+                    <option value="MT">Montana</option>
+                    <option value="NE">Nebraska</option>
+                    <option value="NV">Nevada</option>
+                    <option value="NH">New Hampshire</option>
+                    <option value="NJ">New Jersey</option>
+                    <option value="NM">New Mexico</option>
+                    <option value="NY">New York</option>
+                    <option value="NC">North Carolina</option>
+                    <option value="ND">North Dakota</option>
+                    <option value="OH">Ohio</option>
+                    <option value="OK">Oklahoma</option>
+                    <option value="OR">Oregon</option>
+                    <option value="PA">Pennsylvania</option>
+                    <option value="RI">Rhode Island</option>
+                    <option value="SC">South Carolina</option>
+                    <option value="SD">South Dakota</option>
+                    <option value="TN">Tennessee</option>
+                    <option value="TX">Texas</option>
+                    <option value="UT">Utah</option>
+                    <option value="VT">Vermont</option>
+                    <option value="VA">Virginia</option>
+                    <option value="WA">Washington</option>
+                    <option value="WV">West Virginia</option>
+                    <option value="WI">Wisconsin</option>
+                    <option value="WY">Wyoming</option>
+            
+                
+                </select><br>
+        
+                <label for="mobilePhone">Mobile Phone:</label>
+                <input type="tel" id="mobilePhone" name="mobilePhone" required><br>
+        
+                <input type="checkbox" id="smsAlerts" name="smsAlerts">
+                <label for="smsAlerts">Subscribe to SMS Alerts from Defenders. Message and data rates may apply.</label><br>
+        
+                <input type="submit" value="Submit">
+            </form>
         </section>
     </main>
     <footer>
-        <p>&copy; 2024 Sandy's Portfolio. All Rights Reserved.</p>
+        <p>&copy; 2024 Sandy's Capstone Project. All Rights Reserved.</p>
     </footer>
     <!-- JavaScript scripts  -->
     <script src="sandyScript.js"></script>
